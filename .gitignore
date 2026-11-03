@@ -1,0 +1,19 @@
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Database and local instance
+instance/
+*.db
+
+# Uploaded user files
+uploads/memories/*
+!uploads/memories/.gitkeep
